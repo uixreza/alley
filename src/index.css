@@ -1,69 +1,127 @@
 @import "tailwindcss";
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
+
+@font-face {
+  font-family: "Modam";
+  src: url("/assets/font/modam/Modam-Regular.ttf") format("truetype");
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
 }
-
-a {
+@font-face {
+  font-family: "Modam";
+  src: url("/assets/font/modam/Modam-Medium.ttf") format("truetype");
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  font-style: normal;
 }
-a:hover {
-  color: #535bf2;
+@font-face {
+  font-family: "Modam";
+  src: url("/assets/font/modam/Modam-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modam";
+  src: url("/assets/font/modam/Modam-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modam";
+  src: url("/assets/font/modam/Modam-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modam";
+  src: url("/assets/font/modam/Modam-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modam";
+  src: url("/assets/font/modam/Modam-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Modam";
+  src: url("/assets/font/modam/Modam-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+/* font for leaflet lib */
+
+/* Leaflet Popup Text */
+.leaflet-popup-content {
+  font-family: "Modam", Arial, Helvetica, sans-serif !important;
+}
+
+/* Leaflet Controls (Zoom buttons, etc.) */
+.leaflet-control {
+  font-family: "Modam", Arial, Helvetica, sans-serif !important;
+}
+
+/* Tooltips (if using Leaflet tooltips) */
+.leaflet-tooltip {
+  font-family: "Modam", Arial, Helvetica, sans-serif !important;
+}
+
+/* Attribution text at bottom-right */
+.leaflet-container .leaflet-control-attribution {
+  font-family: "Modam", Arial, Helvetica, sans-serif !important;
+}
+
+/* roots */
+:root {
+  --background: #4c4b4b;
+  --foreground: white;
+  --box: #b5b5b3;
+  --button-background: #000000;
+  --header-background: #303030;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --BoxColor: var(--box);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #4c4b4b;
+    --foreground: white;
+    --box: #232323;
+    --button-background: #000000;
+    --header-background: #303030;
+    --color-background: var(--background);
+    --color-foreground: var(--foreground);
+    --font-sans: var(--font-geist-sans);
+    --font-mono: var(--font-geist-mono);
+    --BoxColor: var(--box);
+  }
+}
+
+html,
+body {
+  min-height: 100vh;
+  height: 100%;
+}
+
+html {
+  background: linear-gradient(rgb(178, 0, 0), rgb(0, 180, 27));
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  color: var(--foreground);
+  font-family: "Modam", Arial, Helvetica, sans-serif;
+  /* background: transparent; */
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+label,
+input[type="checkbox"],
+input[type="radio"] {
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }

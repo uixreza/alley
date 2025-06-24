@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "title": "خانه",
+      "route": "/"
+    },
+    {
+      "title": "درباره ما",
+      "route": "/consultation"
+    },
+    {
+      "title": "املاک",
+      "route": "/mahallat"
+    }
+  ]
+}
