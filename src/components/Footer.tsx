@@ -63,7 +63,7 @@ export default function Footer() {
           <span className="font-bold pr-3 | relative before:absolute before:content-[''] before:rounded-full before:bg-white/60 before:right-[-0.2rem] before:top-[0.5rem] before:w-2 before:h-2 | after:content-[''] after:w-[0.1rem] after:h-full after:absolute after:right-0 after:top-5 after:bg-white/60 after:rounded-2xl">
             مجوز ها
           </span>
-          <div className="flex flex-row gap-3 mr-4 mt-3">
+          <div className="flex flex-row gap-5 mr-4 mt-3">
             <img
               src={"/assets/img/enamad.png"}
               alt="enamad logo"
