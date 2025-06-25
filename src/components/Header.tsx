@@ -26,7 +26,7 @@ const Header = () => {
         <a href={"/"}>
           <img
             className="cursor-pointer"
-            src={"/logo.png"}
+            src={"assets/img/logo.png"}
             alt="logo"
             width={60}
             height={60}

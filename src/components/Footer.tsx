@@ -41,10 +41,10 @@ export default function Footer() {
       </div>
 
       {/* middle content */}
-      <div className="bg-white/60 w-[0.1rem] rounded-2xl h-1/2 relative flex justify-center">
+      <div className="bg-white/60 w-[0.1rem] rounded-2xl h-[10rem] relative flex justify-center">
         <LuArrowBigUpDash
           onClick={() => scrollTop()}
-          className="absolute bottom-[-2.5rem] p-1  bg-white/60 hover:bg-whitetransition-colors shadow-black/20 text-black text-3xl rounded-xl cursor-pointer"
+          className="absolute bottom-[-2.5rem] p-1  bg-white/60 hover:bg-white transition-colors shadow-black/20 text-black text-3xl rounded-xl cursor-pointer"
         />
       </div>
 

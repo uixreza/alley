@@ -1,13 +1,19 @@
 import { type ReactNode } from "react";
 import Header from "./Header";
 import Footer from "./Footer";
+import Socials from "./UI/Socials";
+import NewsBar from "./UI/NewsBar";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <div className="container flex w-full justify-center">
-      <Header />
-      {children}
-      <Footer />
-    </div>
+    <>
+      <NewsBar />
+      <div className="container flex flex-col justify-center">
+        <Header />
+        <div className="mb-5 mt-36">{children}</div>
+        <Footer />
+        <Socials />
+      </div>
+    </>
   );
 }

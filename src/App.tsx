@@ -1,8 +1,8 @@
-import Layout from "./components/layout";
+import Layout from "./components/Layout";
 function App() {
   return (
     <Layout>
-      <div className="container">
+      <div className="">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officiis,
         molestias eligendi accusantium quibusdam soluta fugiat corrupti in,
         magnam architecto vel! Quaerat beatae nobis voluptates dolorum possimus
