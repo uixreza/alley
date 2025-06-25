@@ -6,14 +6,14 @@ import NewsBar from "./UI/NewsBar";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <>
+    <div className="w-full flex justify-center">
       <NewsBar />
-      <div className="container flex flex-col justify-center">
-        <Header />
-        <div className="mb-5 mt-36">{children}</div>
+      <Header />
+      <div className="container w-fullflex flex-col items-center ">
+        <div className=" mb-5 mt-36">{children}</div>
         <Footer />
         <Socials />
       </div>
-    </>
+    </div>
   );
 }
