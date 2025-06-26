@@ -1,0 +1,32 @@
+{
+  "Alleys": [
+    {
+      "title": "بسیج",
+      "src": "assets/img/mahallat/alley.jpg",
+      "rate": 3,
+      "update": "1404 / 04 / 04",
+      "sections": 14
+    },
+    {
+      "title": "میرزا",
+      "src": "assets/img/mahallat/alley.jpg",
+      "rate": 3,
+      "update": "1404 / 04 / 04",
+      "sections": 10
+    },
+    {
+      "title": "دوچنار",
+      "src": "assets/img/mahallat/alley.jpg",
+      "rate": 4,
+      "update": "1404 / 04 / 04",
+      "sections": 23
+    },
+    {
+      "title": "کوی معلم",
+      "src": "assets/img/mahallat/alley.jpg",
+      "rate": 3,
+      "update": "1404 / 04 / 04",
+      "sections": 17
+    }
+  ]
+}
