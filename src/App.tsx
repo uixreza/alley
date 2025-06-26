@@ -13,6 +13,7 @@ function App() {
       update: string;
       rate: number;
       sections: number;
+      url: string;
     }>
   >([]);
 
@@ -30,16 +31,16 @@ function App() {
     <Layout>
       <div className="">
         {/* HEAD */}
-        <div>
+        <div className="px-5">
           <span className="text-3xl font-bold">معرفی محلات شهر</span>
-          <p className="mt-5 px-5 max-w-[70rem]">
+          <p className="mt-5  max-w-[70rem]">
             بجنورد فقط یک شهر نیست، مجموعه‌ای از محله‌هایی با ویژگی‌ها و
             فرصت‌های کاملاً متفاوت‌ است. شما میتوانید در این صفحه همه محله‌ها رو
             ببینید، مقایسه کنید و وارد تحلیل دقیق‌ آنها بشوید; بر اساس داده، نه
             حرف و سلیقه، هر محله با دقت بررسی و رتبه‌بندی شده تا به شما کمک کند
             تصمیم دقیق‌تری بگیرید <br />
-            <p className="flex flex-row items-center gap-2 mt-5">
-              <TbAlertSquareRounded className="text-blue-400 text-2xl" />
+            <p className="relative flex overflow-hidden flex-row items-center gap-2 mt-5 ">
+              <TbAlertSquareRounded className=" text-blue-400 text-2xl min-w-5 " />
               تحلیل هایی که می بینید، حاصل بررسی داده های واقعی از هزاران ملک،
               گزارش های میدانی و تحلیل های GIS هستند. هر چیزی که می خوانید،
               پشتوانه علمی دارد.
@@ -108,6 +109,7 @@ function App() {
                   update: string;
                   rate: number;
                   sections: number;
+                  url: string;
                 },
                 i: number
               ) => (
@@ -117,6 +119,7 @@ function App() {
                   rate={item.rate}
                   update={item.update}
                   sections={item.sections}
+                  url={item.url}
                 />
               )
             )}

@@ -5,28 +5,32 @@
       "src": "assets/img/mahallat/alley.jpg",
       "rate": 3,
       "update": "1404 / 04 / 04",
-      "sections": 14
+      "sections": 14,
+      "url": "/mahallat/Basij"
     },
     {
       "title": "میرزا",
       "src": "assets/img/mahallat/alley.jpg",
       "rate": 3,
       "update": "1404 / 04 / 04",
-      "sections": 10
+      "sections": 10,
+      "url": "/mahallat/Basij"
     },
     {
       "title": "دوچنار",
       "src": "assets/img/mahallat/alley.jpg",
       "rate": 4,
       "update": "1404 / 04 / 04",
-      "sections": 23
+      "sections": 23,
+      "url": "/mahallat/Basij"
     },
     {
       "title": "کوی معلم",
       "src": "assets/img/mahallat/alley.jpg",
       "rate": 3,
       "update": "1404 / 04 / 04",
-      "sections": 17
+      "sections": 17,
+      "url": "/mahallat/Basij"
     }
   ]
 }
