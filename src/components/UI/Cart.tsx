@@ -17,7 +17,7 @@ export default function Cart(Cart: Cart) {
           <img
             src={Cart.src}
             alt={Cart.title}
-            className="absolute inset-0 h-full w-full object-cover object-center"
+            className="shadow-2xl shadow-black absolute inset-0 h-full w-full object-cover object-center"
           />
 
           {/* info */}
