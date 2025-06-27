@@ -39,12 +39,12 @@ function App() {
             ببینید، مقایسه کنید و وارد تحلیل دقیق‌ آنها بشوید; بر اساس داده، نه
             حرف و سلیقه، هر محله با دقت بررسی و رتبه‌بندی شده تا به شما کمک کند
             تصمیم دقیق‌تری بگیرید <br />
-            <p className="relative flex overflow-hidden flex-row items-center gap-2 mt-5 pr-8 ">
+            <span className="relative flex overflow-hidden flex-row items-center gap-2 mt-5 pr-8 ">
               <TbAlertSquareRounded className=" text-blue-400 absolute top-0 right-0 text-2xl min-w-5 " />
               تحلیل هایی که می بینید، حاصل بررسی داده های واقعی از هزاران ملک،
               گزارش های میدانی و تحلیل های GIS هستند. هر چیزی که می خوانید،
               پشتوانه علمی دارد.
-            </p>
+            </span>
           </p>
 
           <div className="flex flex-row mt-5">
@@ -60,9 +60,9 @@ function App() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round">
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round">
                     <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
                     <path d="m9 12 2 2 4-4"></path>
                   </svg>
@@ -81,9 +81,9 @@ function App() {
                     viewBox="0 0 24 24"
                     fill="none"
                     stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round">
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round">
                     <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline>
                     <polyline points="16 7 22 7 22 13"></polyline>
                   </svg>
@@ -120,6 +120,7 @@ function App() {
                   update={item.update}
                   sections={item.sections}
                   url={item.url}
+                  key={i}
                 />
               )
             )}

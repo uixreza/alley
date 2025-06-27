@@ -2,15 +2,15 @@
   "routes": [
     {
       "title": "خانه",
-      "route": "/"
+      "route": "https://hominex.ir/"
     },
     {
       "title": "درباره ما",
-      "route": "/consultation"
+      "route": "https://hominex.ir/about/"
     },
     {
       "title": "املاک",
-      "route": "/mahallat"
+      "route": "https://hominex.ir/properties/"
     }
   ]
 }
