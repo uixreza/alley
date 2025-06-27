@@ -46,7 +46,7 @@ const Header = () => {
       </div>
       {/* menu */}
       <div className="hidden sm:flex">
-        <ul className="flex gap-10 mr-[-90px] sm:mr-0 justify-center [&>li]:cursor-pointer [&>li]:relative">
+        <ul className="flex gap-20 mr-[-90px] sm:mr-0 justify-center [&>li]:cursor-pointer [&>li]:relative">
           {routes.map((item, i) => (
             <li key={i} className="group flex flex-col items-center">
               <a

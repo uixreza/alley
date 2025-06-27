@@ -64,13 +64,15 @@ export default function Footer() {
             مجوز ها
           </span>
           <div className="flex flex-row gap-5 mr-4 mt-3">
-            <img
-              src={"/assets/img/enamad.png"}
-              alt="enamad logo"
-              width={50}
-              height={50}
-              className="cursor-pointer"
-            />
+            <a href="https://trustseal.enamad.ir/?id=578965&Code=RBGUFTHNcR5l3JS6UtEQL9CzV5tLM97p">
+              <img
+                src={"/assets/img/enamad.png"}
+                alt="enamad logo"
+                width={50}
+                height={50}
+                className="cursor-pointer"
+              />
+            </a>
           </div>
         </div>
       </div>
