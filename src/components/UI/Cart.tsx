@@ -11,7 +11,7 @@ type Cart = {
 
 export default function Cart(Cart: Cart) {
   return (
-    <li className="flex cursor-pointer items-center justify-center w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl p-2">
+    <li className="group flex cursor-pointer items-center justify-center w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl p-2">
       <a href={Cart.url} className="block w-full h-full focus:outline-none">
         <article className="relative isolate flex flex-col overflow-hidden rounded-2xl px-4 sm:px-6 pb-8 pt-40 w-full shadow-md bg-white dark:bg-gray-900">
           <img
@@ -32,7 +32,7 @@ export default function Cart(Cart: Cart) {
             </div>
 
             {/* update and alley text */}
-            <div className="glassy flex flex-col relative top-30 left-[-10rem] text-[10px] bg-white/20 backdrop-blur-md rounded-md p-2 shadow-md">
+            <div className="glassy group-hover:left-[-10rem] transition-all flex flex-col relative top-30 left-[-25rem] text-[10px] bg-white/20 backdrop-blur-md rounded-md p-2 shadow-md">
               <span className="font-bold">آخرین آپدیت : {Cart.update}</span>
               <span className="font-bold">تعداد قطعات : {Cart.sections}</span>
             </div>

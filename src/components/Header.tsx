@@ -2,7 +2,8 @@
 import { useState } from "react";
 import { FiUser } from "react-icons/fi";
 import { routes } from "../config/routes.json";
-import { CgMenuGridO } from "react-icons/cg";
+import { TbMenu4 } from "react-icons/tb";
+import { TbMenu3 } from "react-icons/tb";
 import DropdownMenu from "../components/UI/DropdownMenu";
 import { toast } from "react-toastify";
 
@@ -15,10 +16,17 @@ const Header = () => {
   return (
     <div className="container fixed top-0 sm:top-5 text-white z-10 flex justify-between items-center py-2 pr-4 sm:pl-9 px-5 sm:mt-3 h-auto sm:rounded-2xl bg-[var(--box)]/60  backdrop:blur-3xl bg-opacity-40 shadow-black/20 mx-auto shadow-lg backdrop-blur-md bg-opacity-60 ">
       {/* hamb icon */}
-      <CgMenuGridO
-        onClick={() => handleToggleMenu()}
-        className="text-3xl cursor-pointer sm:hidden block"
-      />
+      {toggleMenu ? (
+        <TbMenu3
+          onClick={() => handleToggleMenu()}
+          className="text-3xl cursor-pointer sm:hidden block"
+        />
+      ) : (
+        <TbMenu4
+          onClick={() => handleToggleMenu()}
+          className="text-3xl cursor-pointer sm:hidden block"
+        />
+      )}
       {/* dropDown menu */}
       {toggleMenu && <DropdownMenu />}
       {/* logo */}

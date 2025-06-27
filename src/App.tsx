@@ -1,9 +1,9 @@
 import Layout from "./components/Layout";
 import { TbAlertSquareRounded } from "react-icons/tb";
-import Trustedusers from "./components/UI/Trustedusers";
+// import Trustedusers from "./components/UI/Trustedusers";
 import CardsContainer from "./components/UI/CardsContainer";
 import Cart from "./components/UI/Cart";
-import { useEffect, useState, type ReactNode } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   const [data, setData] = useState<
@@ -39,8 +39,8 @@ function App() {
             ببینید، مقایسه کنید و وارد تحلیل دقیق‌ آنها بشوید; بر اساس داده، نه
             حرف و سلیقه، هر محله با دقت بررسی و رتبه‌بندی شده تا به شما کمک کند
             تصمیم دقیق‌تری بگیرید <br />
-            <p className="relative flex overflow-hidden flex-row items-center gap-2 mt-5 ">
-              <TbAlertSquareRounded className=" text-blue-400 text-2xl min-w-5 " />
+            <p className="relative flex overflow-hidden flex-row items-center gap-2 mt-5 pr-8 ">
+              <TbAlertSquareRounded className=" text-blue-400 absolute top-0 right-0 text-2xl min-w-5 " />
               تحلیل هایی که می بینید، حاصل بررسی داده های واقعی از هزاران ملک،
               گزارش های میدانی و تحلیل های GIS هستند. هر چیزی که می خوانید،
               پشتوانه علمی دارد.
