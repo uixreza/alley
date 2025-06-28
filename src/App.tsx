@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     // fetch data from data folder
-    fetch("/data/Alleys.json")
+    fetch("data/Alleys.json")
       .then((response) => response.json())
       .then((data) => {
         setData(data.Alleys);

@@ -5,7 +5,7 @@ import { MdOutlineRealEstateAgent } from "react-icons/md";
 
 const DropdownMenu = () => {
   return (
-    <ul className=" bg-[var(--box)]/60  backdrop:blur-3xl bg-opacity-40 backdrop-blur-md shadow-lg shadow-black/20 p-4 rounded-3xl flex sm:hidden flex-col gap-2 absolute bottom-[-12.5rem] w-[13rem]">
+    <ul className=" bg-[var(--box)]/60 z-10  backdrop:blur-3xl bg-opacity-40 backdrop-blur-md shadow-lg shadow-black/20 p-4 rounded-3xl flex sm:hidden flex-col gap-2 absolute bottom-[-12.5rem] w-[13rem]">
       <li className="cursor-pointer flex items-center gap-2">
         <MdOutlineRealEstateAgent />
         خانه
