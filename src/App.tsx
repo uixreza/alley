@@ -30,6 +30,7 @@ function App() {
   return (
     <Layout>
       <div className="">
+        <div className="fixed z-[-1] w-full h-full top-0 left-0 shadow-lg backdrop-blur-md bg-opacity-60 bg-[var(--box)]/60  backdrop:blur-3xl bg-opacity-40 shadow-black/20"></div>
         {/* HEAD */}
         <div className="px-5">
           <span className="text-3xl font-bold">معرفی محلات شهر</span>
@@ -48,7 +49,7 @@ function App() {
           </p>
 
           <div className="flex flex-row mt-5">
-            <div className="flex flex-row">
+            <div className="flex flex-row gap-1">
               {/* first badge */}
               <div>
                 <span className="py-1 px-2 inline-flex items-center gap-x-1 text-xs font-medium bg-teal-100 text-teal-800 rounded-full dark:bg-teal-500/10 dark:text-teal-500">

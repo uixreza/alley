@@ -14,24 +14,24 @@ const Header = () => {
   };
   const notify = () => toast("درحال انتقال به صفحه ورود 🔒");
   return (
-    <div className="container fixed top-0 sm:top-5 text-white z-10 flex justify-between items-center py-2 pr-4 sm:pl-9 px-5 sm:mt-3 h-auto sm:rounded-2xl bg-[var(--box)]/60  backdrop:blur-3xl bg-opacity-40 shadow-black/20 mx-auto shadow-lg backdrop-blur-md bg-opacity-60 ">
+    <div className="container fixed top-0 sm:top-5 text-white z-10 flex justify-between items-center py-2 pr-4 sm:pl-9 px-5 sm:mt-3 h-auto sm:rounded-2xl  mx-auto shadow-lg backdrop-blur-md bg-opacity-60 bg-[var(--box)]/60  backdrop:blur-3xl bg-opacity-40 shadow-black/20">
       {/* hamb icon */}
       {toggleMenu ? (
         <TbMenu3
           onClick={() => handleToggleMenu()}
-          className="text-3xl cursor-pointer sm:hidden block"
+          className="text-3xl cursor-pointer lg:hidden block"
         />
       ) : (
         <TbMenu4
           onClick={() => handleToggleMenu()}
-          className="text-3xl cursor-pointer sm:hidden block"
+          className="text-3xl cursor-pointer lg:hidden block"
         />
       )}
       {/* dropDown menu */}
       {toggleMenu && <DropdownMenu />}
       {/* logo */}
       <div className="flex gap-2 items-center">
-        <a href={"/"}>
+        <a href={"https://hominex.ir"}>
           <img
             className="cursor-pointer"
             src={"assets/img/logo.png"}
@@ -45,8 +45,8 @@ const Header = () => {
         </div>
       </div>
       {/* menu */}
-      <div className="hidden sm:flex">
-        <ul className="flex gap-20 mr-[-90px] sm:mr-0 justify-center [&>li]:cursor-pointer [&>li]:relative">
+      <div className="hidden lg:flex">
+        <ul className="flex gap-8 mr-[-90px] sm:mr-0 justify-center [&>li]:cursor-pointer [&>li]:relative">
           {routes.map((item, i) => (
             <li key={i} className="group flex flex-col items-center">
               <a

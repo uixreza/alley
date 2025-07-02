@@ -17,11 +17,11 @@ export default function Cart(Cart: Cart) {
           <img
             src={Cart.src}
             alt={Cart.title}
-            className="shadow-2xl shadow-black absolute inset-0 h-full w-full object-cover object-center"
+            className="shadow-2xl shadow-black absolute inset-0 h-full w-full object-cover object-center transition-transform duration-300 group-hover:scale-110"
           />
 
           {/* info */}
-          <div className="absolute bottom-[-20rem] transition-all hover:bottom-0 inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 backdrop:blur-3xl">
+          <div className="absolute lg:bottom-[-20rem] transition-all hover:bottom-0 inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 backdrop:blur-3xl">
             <div>
               <h3 className="z-10 absolute bottom-12 right-3 text-2xl sm:text-3xl font-bold text-white break-words">
                 {Cart.title}

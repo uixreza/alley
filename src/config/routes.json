@@ -1,16 +1,24 @@
 {
   "routes": [
     {
-      "title": "خانه",
-      "route": "https://hominex.ir/"
+      "title": "بازار املاک",
+      "route": "/"
     },
     {
-      "title": "درباره ما",
-      "route": "https://hominex.ir/about/"
+      "title": "مشاوره خرید",
+      "route": "/consultation"
     },
     {
-      "title": "املاک",
-      "route": "https://hominex.ir/properties/"
+      "title": "معرفی محله",
+      "route": "/mahallat"
+    },
+    {
+      "title": "ویژگی خانه من",
+      "route": "/"
+    },
+    {
+      "title": "هومینکس مگ",
+      "route": "/blog/"
     }
   ]
 }
