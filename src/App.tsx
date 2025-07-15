@@ -13,6 +13,7 @@ function App() {
       update: string;
       rate: number;
       sections: number;
+      area: number;
       url: string;
     }>
   >([]);
@@ -110,6 +111,7 @@ function App() {
                   update: string;
                   rate: number;
                   sections: number;
+                  area: number;
                   url: string;
                 },
                 i: number
@@ -120,6 +122,7 @@ function App() {
                   rate={item.rate}
                   update={item.update}
                   sections={item.sections}
+                  area={item.area}
                   url={item.url}
                   key={i}
                 />

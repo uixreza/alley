@@ -3,34 +3,66 @@
     {
       "title": "بلوار",
       "src": "assets/img/mahallat/Bolvar.png",
-      "rate": 3,
-      "update": "1404 / 04 / 04",
-      "sections": 14,
+      "rate": 4.3,
+      "update": "1404 / 01 / 23",
+      "sections": 440,
+      "area": 23,
       "url": "/mahallat/Bolvar"
     },
     {
       "title": "میرزا کرمانی",
       "src": "assets/img/mahallat/Mirzareza.jpg",
-      "rate": 3,
-      "update": "1404 / 04 / 04",
-      "sections": 10,
+      "rate": 4.7,
+      "update": "1404 / 02 / 20",
+      "sections": 486,
+      "area": 20,
       "url": "/mahallat/Mirza"
     },
     {
       "title": "دوچنار",
       "src": "assets/img/mahallat/Mirzakoochak.jpg",
-      "rate": 4,
-      "update": "1404 / 04 / 04",
-      "sections": 23,
+      "rate": 4.1,
+      "update": "1404 / 02 / 07",
+      "sections": 1126,
+      "area": 28,
       "url": "/mahallat/Dochenar"
     },
     {
       "title": "کوی معلم",
       "src": "assets/img/mahallat/Mirzakoochak.jpg",
-      "rate": 3,
-      "update": "1404 / 04 / 04",
-      "sections": 17,
+      "rate": 4.3,
+      "update": "1404 / 02 / 14",
+      "sections": 971,
+      "area": 52,
       "url": "/mahallat/Kooyemoalem"
+    },
+
+    {
+      "title": "ارتش",
+      "src": "assets/img/mahallat/artesh.png",
+      "rate": 4.5,
+      "update": "1404 / 01 / 20",
+      "sections": 612,
+      "area": 36,
+      "url": "/mahallat/Artesh"
+    },
+    {
+      "title": "جمهوری",
+      "src": "assets/img/mahallat/jomhoori.png",
+      "rate": 4.8,
+      "update": "1404 / 01 / 23",
+      "sections": 1138,
+      "area": 48,
+      "url": "/mahallat/Jomhoori"
+    },
+    {
+      "title": "مصلا",
+      "src": "assets/img/mahallat/jomhoori.png",
+      "rate": 4,
+      "update": "1404 / 02 / 06",
+      "sections": 654,
+      "area": 35,
+      "url": "/mahallat/Jomhoori"
     }
   ]
 }

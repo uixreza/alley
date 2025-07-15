@@ -6,6 +6,7 @@ type Cart = {
   rate: number;
   update: string;
   sections: number;
+  area: number;
   url: string;
 };
 
@@ -35,6 +36,7 @@ export default function Cart(Cart: Cart) {
             <div className="glassy group-hover:left-[-10rem] transition-all flex flex-col relative top-30 left-[-25rem] text-[10px] bg-white/20 backdrop-blur-md rounded-md p-2 shadow-md">
               <span className="font-bold">آخرین آپدیت : {Cart.update}</span>
               <span className="font-bold">تعداد قطعات : {Cart.sections}</span>
+              <span className="font-bold">مساحت : {Cart.area} هکتار</span>
             </div>
           </div>
         </article>

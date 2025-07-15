@@ -75,7 +75,7 @@
 :root {
   --background: #4c4b4b;
   --foreground: white;
-  --box: #b5b5b3;
+  --box: #232323;
   --button-background: #000000;
   --header-background: #303030;
   --color-background: var(--background);
@@ -85,7 +85,7 @@
   --BoxColor: var(--box);
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --background: #4c4b4b;
     --foreground: white;
@@ -98,7 +98,7 @@
     --font-mono: var(--font-geist-mono);
     --BoxColor: var(--box);
   }
-}
+} */
 
 html,
 body {
