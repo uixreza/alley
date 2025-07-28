@@ -4,6 +4,7 @@ import { TbAlertSquareRounded } from "react-icons/tb";
 import CardsContainer from "./components/UI/CardsContainer";
 import Cart from "./components/UI/Cart";
 import { useEffect, useState } from "react";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   const [data, setData] = useState<
@@ -131,6 +132,7 @@ function App() {
           </CardsContainer>
         </div>
       </div>
+      <ToastContainer theme="dark" />
     </Layout>
   );
 }

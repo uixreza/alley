@@ -10,17 +10,17 @@
       "url": "/mahallat/Bolvar"
     },
     {
-      "title": "میرزا کرمانی",
-      "src": "assets/img/mahallat/Mirzareza.jpg",
+      "title": "بسیج",
+      "src": "assets/img/mahallat/Basij.png",
       "rate": 4.7,
       "update": "1404 / 02 / 20",
       "sections": 486,
       "area": 20,
-      "url": "/mahallat/Mirza"
+      "url": "/mahallat/Basij"
     },
     {
       "title": "دوچنار",
-      "src": "assets/img/mahallat/Mirzakoochak.jpg",
+      "src": "assets/img/mahallat/dochenar.png",
       "rate": 4.1,
       "update": "1404 / 02 / 07",
       "sections": 1126,
@@ -29,7 +29,7 @@
     },
     {
       "title": "کوی معلم",
-      "src": "assets/img/mahallat/Mirzakoochak.jpg",
+      "src": "assets/img/mahallat/kooyemoalem.png",
       "rate": 4.3,
       "update": "1404 / 02 / 14",
       "sections": 971,
@@ -56,13 +56,13 @@
       "url": "/mahallat/Jomhoori"
     },
     {
-      "title": "مصلا",
-      "src": "assets/img/mahallat/jomhoori.png",
+      "title": "مصلی",
+      "src": "assets/img/mahallat/Mosalla.png",
       "rate": 4,
       "update": "1404 / 02 / 06",
       "sections": 654,
       "area": 35,
-      "url": "/mahallat/Jomhoori"
+      "url": "/mahallat/Mosalla"
     }
   ]
 }
